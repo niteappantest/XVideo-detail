@@ -1,4 +1,4 @@
-case 'xnxxsearch':
+case 'xnxxdetail':
 anu = await fetchJson(`https://bx-hunter.herokuapp.com/api/xvideosearch?query=japan&apikey=ROOT`, {method: 'get'})
 if (anu.error) return reply(anu.error)
 teks = '────────────\n\n'
