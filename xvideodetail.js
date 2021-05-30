@@ -1,5 +1,6 @@
 case 'xnxxdetail':
-anu = await fetchJson(`https://bx-hunter.herokuapp.com/api/xvideosearch?query=japan&apikey=ROOT`, {method: 'get'})
+xnxxdet = body.slice(11)
+anu = await fetchJson(`https://bx-hunter.herokuapp.com/api/xvideosearch?query=${xnxxdet}&apikey=ROOT`, {method: 'get'})
 if (anu.error) return reply(anu.error)
 teks = '────────────\n\n'
 for (let i of anu.result) {
